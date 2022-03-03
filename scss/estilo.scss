@@ -1,0 +1,41 @@
+/*-----VARIABLE---*/
+$family: 'Lora', serif;
+/*-----FONT FAMILY IMPORT---*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+/*-----CSS RESER---*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----BODY---*/
+body{
+    font-family: $family;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*-----NAVBAR---*/
+#nav{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    
+}
+.tamaño-icon{
+    width: 42px;
+    height: 42px;
+    padding: 3px 3px;
+    margin-right: 5px;
+}
+#menu {
+	li {
+        text-align: end;
+		a{
+			font-size: 18px;
+			font-weight: bold;
+			color: #fff;
+		}	
+	} 
+}
